@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="spring-beans-5.2.6.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../spring/spring-framework-5.2.6.BUILD-SNAPSHOT/libs/spring-beans-5.2.6.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../spring/spring-framework-5.2.6.BUILD-SNAPSHOT/libs/spring-context-5.2.6.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../spring/spring-framework-5.2.6.BUILD-SNAPSHOT/libs/spring-core-5.2.6.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../spring/spring-framework-5.2.6.BUILD-SNAPSHOT/libs/spring-expression-5.2.6.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../spring/spring-framework-5.2.6.BUILD-SNAPSHOT/libs/spring-jcl-5.2.6.BUILD-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
