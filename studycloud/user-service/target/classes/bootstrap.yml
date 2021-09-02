@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    config:
+      #要与仓库中配置文件中的application保持一致
+      name: user
+      #要与仓库中配置文件中的profile保持一致
+      profile: dev
+      #要与仓库中所属的分支一样
+      label: master
+      discovery:
+        enabled: true #配置是否发现配置中心
+        service-id: config-server #配置中心服务名
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:11111/eureka

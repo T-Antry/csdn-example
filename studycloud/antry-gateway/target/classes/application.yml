@@ -1,0 +1,60 @@
+server:
+  port: 2001
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+#        # 路由id 可以任意名称
+#        - id: user-service-pre-route
+#          # 代理的服务地址 lb表示从eureka中获取具体实例
+#          uri: lb://user-service
+#          # 路由断言：可以匹配映射路径
+#          predicates:
+#            - Path=/**
+#          filters:
+#            # 添加请求路径的前缀
+#            - PrefixPath=/user
+        # 路由id 可以任意名称
+        - id: user-service-str-route
+          # 代理的服务地址 lb表示从eureka中获取具体实例
+          uri: lb://user-service
+          # 路由断言：可以匹配映射路径
+          predicates:
+            - Path=/api/user/**
+          filters:
+            # 1表示过滤一个路径
+            - StripPrefix=1
+            # 自定义过滤器
+            - MyParam=name
+      # 默认过滤器对所有路由都生效
+      default-filters:
+        - AddResponseHeader=X-Response-Foo, Bar
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            # allowedOrigins:* 这种写法或者下面的写法都可以，* 表示全部
+            allowedOrigins:
+              - "https://docs.spring.io"
+            allowedMethods:
+              - GET
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:11111/eureka
+  instance:
+    prefer-ip-address: true  #以IP地址注册到服务中心，相互注册使用IP地址
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000 #触发服务降级的时间，默认时1000ms
+ribbon:
+  ConnectTimeout: 1000 # 连接超时时长
+  ReadTimeout: 2000 # 数据通信超时时长
+  MaxAutoRetries: 0 # 当前服务器的重试次数
+  MaxAutoRetriesNextServer: 0 # 重试多少次服务
+

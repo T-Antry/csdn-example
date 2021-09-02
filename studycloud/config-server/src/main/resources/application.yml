@@ -1,0 +1,15 @@
+server:
+  port: 3001
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/T_Antry/springcloudconfig.git
+          # skip-ssl-validation: true #跳过ssl验证
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:11111/eureka

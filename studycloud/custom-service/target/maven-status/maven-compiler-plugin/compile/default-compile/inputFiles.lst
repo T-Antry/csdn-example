@@ -1,0 +1,9 @@
+C:\workspace\ideaspace\studycloud\custom-service\src\main\java\org\antry\controller\UserHandler.java
+C:\workspace\ideaspace\studycloud\custom-service\src\main\java\org\antry\client\UserClient.java
+C:\workspace\ideaspace\studycloud\custom-service\src\main\java\org\antry\controller\UserFeignHanller.java
+C:\workspace\ideaspace\studycloud\custom-service\src\main\java\org\antry\config\FeignConfig.java
+C:\workspace\ideaspace\studycloud\custom-service\src\main\java\org\antry\CustomService.java
+C:\workspace\ideaspace\studycloud\custom-service\src\main\java\org\antry\service\UserServiceImpl.java
+C:\workspace\ideaspace\studycloud\custom-service\src\main\java\org\antry\service\UserService.java
+C:\workspace\ideaspace\studycloud\custom-service\src\main\java\org\antry\App.java
+C:\workspace\ideaspace\studycloud\custom-service\src\main\java\org\antry\client\fallback\UserClientFallback.java

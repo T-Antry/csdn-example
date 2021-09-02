@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="custom-service" />
+        <module name="user-service-other" />
+        <module name="eureka-server-anoter" />
+        <module name="user-service" />
+        <module name="antry-gateway" />
+        <module name="config-server" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="antry-gateway" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="custom-service" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server-anoter" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+      <module name="user-service-other" options="-parameters" />
+    </option>
+  </component>
+</project>
