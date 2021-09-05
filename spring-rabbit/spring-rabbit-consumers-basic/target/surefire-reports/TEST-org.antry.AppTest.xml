@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.antry.AppTest" time="0.023" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\work\ideaworkspace\spring-rabbit\spring-rabbit-consumers-basic\target\test-classes;D:\work\ideaworkspace\spring-rabbit\spring-rabbit-consumers-basic\target\classes;D:\software\install\mavenrepositry\junit\junit\4.11\junit-4.11.jar;D:\software\install\mavenrepositry\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\software\install\mavenrepositry\org\springframework\spring-context\5.1.7.RELEASE\spring-context-5.1.7.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\spring-aop\5.1.7.RELEASE\spring-aop-5.1.7.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\spring-beans\5.1.7.RELEASE\spring-beans-5.1.7.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\spring-core\5.1.7.RELEASE\spring-core-5.1.7.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\spring-jcl\5.1.7.RELEASE\spring-jcl-5.1.7.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\spring-expression\5.1.7.RELEASE\spring-expression-5.1.7.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\amqp\spring-rabbit\2.1.8.RELEASE\spring-rabbit-2.1.8.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\amqp\spring-amqp\2.1.8.RELEASE\spring-amqp-2.1.8.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\retry\spring-retry\1.2.4.RELEASE\spring-retry-1.2.4.RELEASE.jar;D:\software\install\mavenrepositry\com\rabbitmq\amqp-client\5.4.3\amqp-client-5.4.3.jar;D:\software\install\mavenrepositry\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\software\install\mavenrepositry\org\springframework\spring-messaging\5.1.9.RELEASE\spring-messaging-5.1.9.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\spring-tx\5.1.9.RELEASE\spring-tx-5.1.9.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\spring-test\5.1.7.RELEASE\spring-test-5.1.7.RELEASE.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\software\install\jdk\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\T_Antry\AppData\Local\Temp\surefire2770548138093267698\surefirebooter6490133825962445680.jar C:\Users\T_Antry\AppData\Local\Temp\surefire2770548138093267698 2021-09-03T00-03-22_634-jvmRun1 surefire9012940439227085482tmp surefire_05106823373378459265tmp"/>
+    <property name="surefire.test.class.path" value="D:\work\ideaworkspace\spring-rabbit\spring-rabbit-consumers-basic\target\test-classes;D:\work\ideaworkspace\spring-rabbit\spring-rabbit-consumers-basic\target\classes;D:\software\install\mavenrepositry\junit\junit\4.11\junit-4.11.jar;D:\software\install\mavenrepositry\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\software\install\mavenrepositry\org\springframework\spring-context\5.1.7.RELEASE\spring-context-5.1.7.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\spring-aop\5.1.7.RELEASE\spring-aop-5.1.7.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\spring-beans\5.1.7.RELEASE\spring-beans-5.1.7.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\spring-core\5.1.7.RELEASE\spring-core-5.1.7.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\spring-jcl\5.1.7.RELEASE\spring-jcl-5.1.7.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\spring-expression\5.1.7.RELEASE\spring-expression-5.1.7.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\amqp\spring-rabbit\2.1.8.RELEASE\spring-rabbit-2.1.8.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\amqp\spring-amqp\2.1.8.RELEASE\spring-amqp-2.1.8.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\retry\spring-retry\1.2.4.RELEASE\spring-retry-1.2.4.RELEASE.jar;D:\software\install\mavenrepositry\com\rabbitmq\amqp-client\5.4.3\amqp-client-5.4.3.jar;D:\software\install\mavenrepositry\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\software\install\mavenrepositry\org\springframework\spring-messaging\5.1.9.RELEASE\spring-messaging-5.1.9.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\spring-tx\5.1.9.RELEASE\spring-tx-5.1.9.RELEASE.jar;D:\software\install\mavenrepositry\org\springframework\spring-test\5.1.7.RELEASE\spring-test-5.1.7.RELEASE.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\T_Antry"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\software\install\jdk\jre"/>
+    <property name="basedir" value="D:\work\ideaworkspace\spring-rabbit\spring-rabbit-consumers-basic"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\T_Antry\AppData\Local\Temp\surefire2770548138093267698\surefirebooter6490133825962445680.jar"/>
+    <property name="sun.boot.class.path" value="D:\software\install\jdk\jre\lib\resources.jar;D:\software\install\jdk\jre\lib\rt.jar;D:\software\install\jdk\jre\lib\sunrsasign.jar;D:\software\install\jdk\jre\lib\jsse.jar;D:\software\install\jdk\jre\lib\jce.jar;D:\software\install\jdk\jre\lib\charsets.jar;D:\software\install\jdk\jre\lib\jfr.jar;D:\software\install\jdk\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="T_Antry"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\software\install\jdk\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\software\install\mavenrepositry"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\T_Antry\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.1.2"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="D:\work\ideaworkspace\spring-rabbit\spring-rabbit-consumers-basic"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\software\install\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\software\install\jdk\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\software\install\git\Git\cmd;D:\software\install\gitTortoise\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\T_Antry\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="D:\software\install\jdk\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="D:\software\install\mavenrepositry"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="org.antry.AppTest" time="0"/>
+</testsuite>
