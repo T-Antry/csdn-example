@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    host: 192.168.200.133 #主机ip
+    port: 5672 #端口
+    username: antry
+    password: antry
+    virtual-host: antry_vm
