@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="org.antry.model.User" id="user" init-method="myInit" destroy-method="myDestory">
+        <property name="name" value="antry"></property>
+    </bean>
+<!--    <bean class="org.antry.model.OtherUser" id="otherUser" init-method="myInit" destroy-method="myDestory">-->
+<!--        <property name="name" value="otherAntry"></property>-->
+<!--    </bean>-->
+    <bean id="beanPostProcessor" class="org.antry.processor.MyBeanPostProcessor">
+    </bean>
+    <bean id="instantiationAwareBeanPostProcessor" class="org.antry.processor.MyInstantiationAwareBeanPostProcessor">
+    </bean>
+    <bean id="beanFactoryPostProcessor" class="org.antry.processor.MyBeanFactoryPostProcessor">
+    </bean>
+</beans>
